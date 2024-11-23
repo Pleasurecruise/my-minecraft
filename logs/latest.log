@@ -1,0 +1,30 @@
+[19:40:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:40:41] [ServerMain/INFO]: No existing world data, creating new world
+[19:40:42] [ServerMain/INFO]: Loaded 1337 recipes
+[19:40:43] [ServerMain/INFO]: Loaded 1448 advancements
+[19:40:43] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[19:40:43] [Server thread/INFO]: Loading properties
+[19:40:43] [Server thread/INFO]: Default game type: SURVIVAL
+[19:40:43] [Server thread/INFO]: Generating keypair
+[19:40:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:40:43] [Server thread/INFO]: Using epoll channel type
+[19:40:43] [Server thread/INFO]: Preparing level "world"
+[19:40:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:40:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:58] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:58] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:59] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:40:59] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:00] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:00] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:01] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:01] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:02] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:02] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:03] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[19:41:03] [Server thread/INFO]: Time elapsed: 7482 ms
+[19:41:03] [Server thread/INFO]: Done (20.146s)! For help, type "help"
+[19:42:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
