@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  minecraft:
+    build: .
+    container_name: minecraft-server
+    ports:
+      - "25565:25565"
+    environment:
+      - JAVA_OPTS=-Xmx4096M -Xms4096M
+      - NGROK_AUTHTOKEN=${NGROK_AUTHTOKEN}
+    volumes:
+      - ./world:/minecraft/world
+      - ./logs:/minecraft/logs
+      - ./banned-ips.json:/minecraft/banned-ips.json
+      - ./banned-players.json:/minecraft/banned-players.json
+      - ./ops.json:/minecraft/ops.json
+      - ./whitelist.json:/minecraft/whitelist.json
+      - ./usercache.json:/minecraft/usercache.json
+      - ./server.properties:/minecraft/server.properties
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

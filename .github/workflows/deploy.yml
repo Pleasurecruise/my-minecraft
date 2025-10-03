@@ -1,0 +1,77 @@
+name: Deploy Minecraft Server
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v5
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Docker image
+      run: docker build -t minecraft-server .
+
+    - name: Run Minecraft Server
+      run: |
+        docker run -d \
+          --name minecraft-server \
+          -p 25565:25565 \
+          -e NGROK_AUTHTOKEN=${{ secrets.NGROK_AUTHTOKEN }} \
+          -e JAVA_OPTS="-Xmx4096M -Xms4096M" \
+          minecraft-server
+
+    - name: Wait for server startup
+      run: sleep 10
+
+    - name: Get server address
+      id: get_address
+      run: |
+        # 获取 ngrok 地址
+        ADDRESS=$(docker exec minecraft-server cat /minecraft/server_address.txt 2>/dev/null || echo "Address not available yet")
+        echo "address=$ADDRESS" >> $GITHUB_OUTPUT
+        echo "Minecraft Server Address: $ADDRESS"
+
+    - name: Display connection info
+      run: |
+        echo "=========================================="
+        echo "Minecraft Server is running!"
+        echo "Connection Address: ${{ steps.get_address.outputs.address }}"
+        echo "=========================================="
+
+    - name: Keep server running
+      run: |
+        # 保持容器运行，监控日志
+        echo "Server is running. Monitoring logs..."
+        docker logs -f minecraft-server &
+
+        # 运行一段时间后自动保存并停止（可根据需要调整时间）
+        sleep 3600
+
+        echo "Stopping server and saving progress..."
+        docker exec minecraft-server /minecraft/save.sh
+        docker stop minecraft-server
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+        git add world/ logs/ *.json *.txt server.properties 2>/dev/null || true
+
+        if ! git diff --cached --quiet 2>/dev/null; then
+          git commit -m "auto-save: $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+        else
+          echo "No changes to commit"
+        fi

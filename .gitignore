@@ -1,0 +1,11 @@
+.idea/
+.vscode/
+
+# Docker 和运行时文件
+ngrok.log
+server_address.txt
+
+# 临时文件
+*.log.gz
+
+.env
