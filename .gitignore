@@ -9,3 +9,7 @@ server_address.txt
 *.log.gz
 
 .env
+
+.hmcl.json
+.hmcl/
+.minecraft/
