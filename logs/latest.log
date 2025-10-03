@@ -1,55 +1,29 @@
-[16:10:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:10:42] [ServerMain/INFO]: Loaded 1337 recipes
-[16:10:42] [ServerMain/INFO]: Loaded 1448 advancements
-[16:10:42] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[16:10:42] [Server thread/INFO]: Loading properties
-[16:10:42] [Server thread/INFO]: Default game type: SURVIVAL
-[16:10:42] [Server thread/INFO]: Generating keypair
-[16:10:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:10:43] [Server thread/INFO]: Using epoll channel type
-[16:10:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:10:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:10:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:10:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:10:43] [Server thread/INFO]: Preparing level "world"
-[16:10:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[16:10:58] [Server thread/INFO]: Time elapsed: 15075 ms
-[16:10:58] [Server thread/INFO]: Done (15.696s)! For help, type "help"
-[16:11:07] [Server thread/INFO]: Pleasure1234[/[0:0:0:0:0:0:0:1%0]:36320] logged in with entity id 54 at (34.835182179658375, 63.0, -34.4334628944281)
-[16:11:07] [Server thread/INFO]: Pleasure1234 joined the game
-[16:12:43] [Server thread/INFO]: Gamerule keepInventory is now set to: true
-[16:12:52] [Server thread/INFO]: Applied effect Resistance to Pleasure1234
-[16:23:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[16:23:57] [Server thread/INFO]: sleep<--[HERE]
-[16:28:53] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
-[16:28:53] [Server thread/INFO]: Pleasure1234 left the game
+[11:29:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:29:52] [ServerMain/INFO]: Loaded 1337 recipes
+[11:29:52] [ServerMain/INFO]: Loaded 1448 advancements
+[11:29:52] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[11:29:52] [Server thread/INFO]: Loading properties
+[11:29:52] [Server thread/INFO]: Default game type: SURVIVAL
+[11:29:52] [Server thread/INFO]: Generating keypair
+[11:29:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:29:53] [Server thread/INFO]: Using default channel type
+[11:29:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:29:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:29:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:29:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:29:54] [Server thread/INFO]: Preparing level "world"
+[11:29:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:29:57] [Server thread/INFO]: Time elapsed: 2039 ms
+[11:29:57] [Server thread/INFO]: Done (3.410s)! For help, type "help"
+[11:30:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:36:10] [Server thread/INFO]: Pleasure1234[/127.0.0.1:61518] logged in with entity id 32 at (96.048756739658, 64.0, -21.753033817322006)
+[11:36:10] [Server thread/INFO]: Pleasure1234 joined the game
+[11:36:43] [Server thread/INFO]: Applied effect Resistance to Pleasure1234
+[11:36:48] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[11:50:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2558ms or 51 ticks behind
+[11:51:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[11:51:20] [Server thread/INFO]: resume stop<--[HERE]
