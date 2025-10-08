@@ -1,29 +1,58 @@
-[11:29:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:29:52] [ServerMain/INFO]: Loaded 1337 recipes
-[11:29:52] [ServerMain/INFO]: Loaded 1448 advancements
-[11:29:52] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[11:29:52] [Server thread/INFO]: Loading properties
-[11:29:52] [Server thread/INFO]: Default game type: SURVIVAL
-[11:29:52] [Server thread/INFO]: Generating keypair
-[11:29:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:29:53] [Server thread/INFO]: Using default channel type
-[11:29:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:29:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:29:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:29:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:29:54] [Server thread/INFO]: Preparing level "world"
-[11:29:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:29:57] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[11:29:57] [Server thread/INFO]: Time elapsed: 2039 ms
-[11:29:57] [Server thread/INFO]: Done (3.410s)! For help, type "help"
-[11:30:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[11:36:10] [Server thread/INFO]: Pleasure1234[/127.0.0.1:61518] logged in with entity id 32 at (96.048756739658, 64.0, -21.753033817322006)
-[11:36:10] [Server thread/INFO]: Pleasure1234 joined the game
-[11:36:43] [Server thread/INFO]: Applied effect Resistance to Pleasure1234
-[11:36:48] [Server thread/INFO]: Gamerule keepInventory is now set to: true
-[11:50:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2558ms or 51 ticks behind
-[11:51:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[11:51:20] [Server thread/INFO]: resume stop<--[HERE]
+[13:55:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:55:10] [ServerMain/INFO]: Loaded 1337 recipes
+[13:55:11] [ServerMain/INFO]: Loaded 1448 advancements
+[13:55:11] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[13:55:11] [Server thread/INFO]: Loading properties
+[13:55:11] [Server thread/INFO]: Default game type: SURVIVAL
+[13:55:11] [Server thread/INFO]: Generating keypair
+[13:55:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:55:11] [Server thread/INFO]: Using epoll channel type
+[13:55:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:55:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:55:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:55:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:55:11] [Server thread/INFO]: Preparing level "world"
+[13:55:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:55:22] [Server thread/INFO]: Time elapsed: 9667 ms
+[13:55:22] [Server thread/INFO]: Done (10.202s)! For help, type "help"
+[13:55:23] [Server thread/INFO]: Pleasure1234[/[0:0:0:0:0:0:0:1%0]:40666] logged in with entity id 29 at (108.89697702403592, 67.0, 43.000429193223695)
+[13:55:23] [Server thread/INFO]: Pleasure1234 joined the game
+[13:57:55] [Server thread/INFO]: Unknown item 'minecraft:diamoned'
+[13:57:55] [Server thread/INFO]: ...asure1234 diamoned 1<--[HERE]
+[13:58:32] [Server thread/INFO]: Pleasure1234 has made the advancement [Diamonds!]
+[13:58:32] [Server thread/INFO]: Gave 1 [Diamond] to Pleasure1234
+[14:00:11] [Server thread/INFO]: Made Pleasure1234 a server operator
+[14:00:28] [Server thread/INFO]: [Pleasure1234: Gamerule keepInventory is now set to: true]
+[14:01:03] [Server thread/INFO]: Locating element minecraft:village_plains took 2448 ms
+[14:01:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2443ms or 48 ticks behind
+[14:01:23] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 112.500000, 67.000000, 912.500000]
+[14:01:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6960ms or 139 ticks behind
+[14:02:09] [Server thread/INFO]: [Pleasure1234: Set the time to 0]
+[14:02:29] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 112.500000, 67.000000, 900.500000]
+[14:02:50] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 112.500000, 100.000000, 900.500000]
+[14:04:43] [Server thread/INFO]: [Pleasure1234: Gave 1 [Diamond Pickaxe] to Pleasure1234]
+[14:10:53] [Server thread/INFO]: Pleasure1234 has made the advancement [Stone Age]
+[14:24:01] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[14:24:01] [Server thread/INFO]: Pleasure1234 left the game
+[14:25:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:25:17] [Server thread/INFO]: Stopping server
