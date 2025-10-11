@@ -7,6 +7,13 @@ Minecraft 1.21.3
 java -Xmx4096M -Xms4096M -jar server.jar nogui
 ```
 内网穿透
+
+https://dashboard.ngrok.com/get-started/your-authtoken
+
+```
+./ngrok config add-authtoken $YOUR_AUTHTOKEN
+```
+
 ```
 ./ngrok tcp 25565
 ```
