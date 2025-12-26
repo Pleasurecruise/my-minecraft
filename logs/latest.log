@@ -1,39 +1,40 @@
-[22:41:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[22:41:20] [ServerMain/INFO]: Loaded 1461 recipes
-[22:41:20] [ServerMain/INFO]: Loaded 1574 advancements
-[22:41:20] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[22:41:20] [Server thread/INFO]: Loading properties
-[22:41:20] [Server thread/INFO]: Default game type: SURVIVAL
-[22:41:20] [Server thread/INFO]: Generating keypair
-[22:41:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:41:21] [Server thread/INFO]: Using default channel type
-[22:41:21] [Server thread/INFO]: Preparing level "world"
-[22:41:21] [Server thread/INFO]: Loading 0 persistent chunks...
-[22:41:21] [Server thread/INFO]: Preparing spawn area: 100%
-[22:41:21] [Server thread/INFO]: Time elapsed: 14 ms
-[22:41:21] [Server thread/INFO]: Done (0.337s)! For help, type "help"
-[22:42:07] [User Authenticator #1/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
-[22:42:08] [Server thread/INFO]: Pleasure1234[/10.132.194.54:52532] logged in with entity id 78 at (-3.5, 83.0, -0.5)
-[22:42:08] [Server thread/INFO]: Pleasure1234 joined the game
-[22:44:35] [Server thread/INFO]: Gamerule keepInventory is now set to: true
-[22:45:24] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
-[22:45:24] [Server thread/INFO]: Pleasure1234 left the game
-[22:46:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:46:57] [User Authenticator #2/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
-[22:46:58] [Server thread/INFO]: Pleasure1234[/10.132.194.54:61644] logged in with entity id 986 at (23.583381110733146, 64.0, -49.10649811005445)
-[22:46:58] [Server thread/INFO]: Pleasure1234 joined the game
-[22:51:18] [Server thread/INFO]: Pleasure1234 has made the advancement [Monster Hunter]
-[22:55:47] [Server thread/INFO]: Pleasure1234 lost connection: Timed out
-[22:55:47] [Server thread/INFO]: Pleasure1234 left the game
-[22:55:48] [User Authenticator #3/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
-[22:55:48] [Server thread/INFO]: Pleasure1234[/10.132.194.54:63271] logged in with entity id 2842 at (124.69999998807907, 64.875, -114.65868307097357)
-[22:55:48] [Server thread/INFO]: Pleasure1234 joined the game
-[23:14:07] [Server thread/INFO]: Pleasure1234 has made the advancement [Sweet Dreams]
-[23:20:30] [Server thread/INFO]: Pleasure1234 has made the advancement [Stone Age]
-[23:21:03] [Server thread/INFO]: Pleasure1234 has made the advancement [Getting an Upgrade]
-[23:26:35] [Server thread/INFO]: Pleasure1234 has made the advancement [Acquire Hardware]
-[23:29:01] [Server thread/INFO]: Pleasure1234 has made the advancement [Diamonds!]
-[23:29:09] [Server thread/INFO]: Pleasure1234 has made the advancement [Isn't It Iron Pick]
-[23:36:32] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
-[23:36:32] [Server thread/INFO]: Pleasure1234 left the game
-[23:36:54] [Server thread/INFO]: Stopping server
+[16:30:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:30:06] [ServerMain/INFO]: No existing world data, creating new world
+[16:30:06] [ServerMain/ERROR]: No key layers in MapLike[{}]
+[16:30:07] [ServerMain/INFO]: Loaded 1470 recipes
+[16:30:07] [ServerMain/INFO]: Loaded 1584 advancements
+[16:30:07] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:30:07] [Server thread/INFO]: Loading properties
+[16:30:07] [Server thread/INFO]: Default game type: CREATIVE
+[16:30:07] [Server thread/INFO]: Generating keypair
+[16:30:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:30:07] [Server thread/INFO]: Preparing level "world"
+[16:30:07] [Server thread/INFO]: Selecting global world spawn...
+[16:30:07] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:30:07] [Server thread/INFO]: Preparing spawn area: 100%
+[16:30:07] [Server thread/INFO]: Time elapsed: 138 ms
+[16:30:07] [Server thread/INFO]: Done (0.183s)! For help, type "help"
+[16:30:26] [User Authenticator #1/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[16:30:27] [Server thread/INFO]: Pleasure1234[/10.132.193.224:53812] logged in with entity id 1 at (-0.5, -60.0, 10.5)
+[16:30:27] [Server thread/INFO]: Pleasure1234 joined the game
+[16:31:12] [Server thread/INFO]: Pleasure1234 has completed the challenge [Cover Me in Debris]
+[16:31:42] [Server thread/INFO]: Pleasure1234 has completed the challenge [Serious Dedication]
+[16:32:33] [Server thread/INFO]: Pleasure1234 has reached the goal [Sky's the Limit]
+[16:32:33] [Server thread/INFO]: [Pleasure1234: Gave 1 [Elytra] to Pleasure1234]
+[16:33:10] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -60.000000]
+[16:36:13] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[16:36:13] [Server thread/INFO]: Pleasure1234 left the game
+[16:37:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:41:44] [User Authenticator #2/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[16:41:45] [Server thread/INFO]: Pleasure1234[/10.132.193.224:54053] logged in with entity id 496 at (9.693366034201167E-4, -60.0, -59.72784752160942)
+[16:41:45] [Server thread/INFO]: Pleasure1234 joined the game
+[16:41:53] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.000969, -60.000000, -59.727848]
+[16:45:59] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -58.846403]
+[16:47:27] [Server thread/INFO]: Pleasure1234 has made the advancement [Monster Hunter]
+[16:50:28] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 59.320777, -60.000000, -178.553664]
+[16:50:35] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -178.553664]
+[16:51:43] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -176.522985]
+[16:54:13] [Server thread/INFO]: Pleasure1234 has made the advancement [Crafting a New Look]
+[17:02:28] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[17:02:28] [Server thread/INFO]: Pleasure1234 left the game
+[17:03:28] [Server thread/INFO]: Server empty for 60 seconds, pausing

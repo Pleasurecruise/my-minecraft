@@ -10,6 +10,7 @@ server_address.txt
 
 .env
 
+# HMCL启动器及其相关配置
 .hmcl.json
 .hmcl/
 .minecraft/
