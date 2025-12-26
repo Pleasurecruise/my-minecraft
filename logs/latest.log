@@ -1,40 +1,27 @@
-[16:30:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:30:06] [ServerMain/INFO]: No existing world data, creating new world
-[16:30:06] [ServerMain/ERROR]: No key layers in MapLike[{}]
-[16:30:07] [ServerMain/INFO]: Loaded 1470 recipes
-[16:30:07] [ServerMain/INFO]: Loaded 1584 advancements
-[16:30:07] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[16:30:07] [Server thread/INFO]: Loading properties
-[16:30:07] [Server thread/INFO]: Default game type: CREATIVE
-[16:30:07] [Server thread/INFO]: Generating keypair
-[16:30:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:30:07] [Server thread/INFO]: Preparing level "world"
-[16:30:07] [Server thread/INFO]: Selecting global world spawn...
-[16:30:07] [Server thread/INFO]: Loading 0 persistent chunks...
-[16:30:07] [Server thread/INFO]: Preparing spawn area: 100%
-[16:30:07] [Server thread/INFO]: Time elapsed: 138 ms
-[16:30:07] [Server thread/INFO]: Done (0.183s)! For help, type "help"
-[16:30:26] [User Authenticator #1/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
-[16:30:27] [Server thread/INFO]: Pleasure1234[/10.132.193.224:53812] logged in with entity id 1 at (-0.5, -60.0, 10.5)
-[16:30:27] [Server thread/INFO]: Pleasure1234 joined the game
-[16:31:12] [Server thread/INFO]: Pleasure1234 has completed the challenge [Cover Me in Debris]
-[16:31:42] [Server thread/INFO]: Pleasure1234 has completed the challenge [Serious Dedication]
-[16:32:33] [Server thread/INFO]: Pleasure1234 has reached the goal [Sky's the Limit]
-[16:32:33] [Server thread/INFO]: [Pleasure1234: Gave 1 [Elytra] to Pleasure1234]
-[16:33:10] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -60.000000]
-[16:36:13] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
-[16:36:13] [Server thread/INFO]: Pleasure1234 left the game
-[16:37:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:41:44] [User Authenticator #2/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
-[16:41:45] [Server thread/INFO]: Pleasure1234[/10.132.193.224:54053] logged in with entity id 496 at (9.693366034201167E-4, -60.0, -59.72784752160942)
-[16:41:45] [Server thread/INFO]: Pleasure1234 joined the game
-[16:41:53] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.000969, -60.000000, -59.727848]
-[16:45:59] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -58.846403]
-[16:47:27] [Server thread/INFO]: Pleasure1234 has made the advancement [Monster Hunter]
-[16:50:28] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 59.320777, -60.000000, -178.553664]
-[16:50:35] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -178.553664]
-[16:51:43] [Server thread/INFO]: [Pleasure1234: Teleported Pleasure1234 to 0.500000, -60.000000, -176.522985]
-[16:54:13] [Server thread/INFO]: Pleasure1234 has made the advancement [Crafting a New Look]
-[17:02:28] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
-[17:02:28] [Server thread/INFO]: Pleasure1234 left the game
-[17:03:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:06:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:06:37] [ServerMain/INFO]: Loaded 1470 recipes
+[17:06:37] [ServerMain/INFO]: Loaded 1584 advancements
+[17:06:37] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[17:06:37] [Server thread/INFO]: Loading properties
+[17:06:37] [Server thread/INFO]: Default game type: CREATIVE
+[17:06:37] [Server thread/INFO]: Generating keypair
+[17:06:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:06:38] [Server thread/INFO]: Preparing level "world"
+[17:06:38] [Server thread/INFO]: Loading 0 persistent chunks...
+[17:06:38] [Server thread/INFO]: Time elapsed: 13 ms
+[17:06:38] [Server thread/INFO]: Done (0.072s)! For help, type "help"
+[17:06:58] [User Authenticator #1/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[17:06:59] [Server thread/INFO]: Pleasure1234[/10.132.193.224:54740] logged in with entity id 30 at (1.3345046085604122, -60.0, -174.7019442118304)
+[17:06:59] [Server thread/INFO]: Pleasure1234 joined the game
+[17:07:09] [Server thread/INFO]: [Pleasure1234: Saved the game]
+[17:07:13] [Server thread/INFO]: [Pleasure1234: Stopping the server]
+[17:07:13] [Server thread/INFO]: Stopping server
+[17:07:13] [Server thread/INFO]: Saving players
+[17:07:13] [Server thread/INFO]: Saving worlds
+[17:07:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:07:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:07:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:07:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:07:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:07:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:07:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
