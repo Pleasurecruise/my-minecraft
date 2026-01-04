@@ -1,12 +1,12 @@
 # minecraft
-minecraft-on-codespace
-Minecraft 1.21.3
+minecraft-on-codespace minecraft-on-cnb
+Minecraft 1.21.11
 ## steps
-启动游戏
+Start Game Server
 ```
 java -Xmx4096M -Xms4096M -jar server.jar nogui
 ```
-内网穿透
+Install ngrok
 
 https://dashboard.ngrok.com/get-started/your-authtoken
 
@@ -17,19 +17,27 @@ https://dashboard.ngrok.com/get-started/your-authtoken
 ```
 ./ngrok tcp 25565
 ```
-保存进度
+Save & Stop Server
 ```
 /save-all /stop
 ```
-开启无敌
+Change Level Type to FLAT
+```
+# server.properties
+level-type=minecraft:normal → level-type=minecraft:flat
+level-name=world → level-name=world_flat
+gamemode=survival → gamemode=creative
+# On Server Console
+/op Pleasure1234
+# On Game Console
+/gamerule keep_inventory true
+/gamerule doFireTick false
+```
+Give yourself Resistance Effect
 ```
 /effect give Pleasure1234 minecraft:resistance 1000000 255 true
 ```
-开启死亡不掉落
-```
-/gamerule keepInventory true
-```
-提交同步至仓库
+Sync changes to GitHub
 ```
 git status
 git add .

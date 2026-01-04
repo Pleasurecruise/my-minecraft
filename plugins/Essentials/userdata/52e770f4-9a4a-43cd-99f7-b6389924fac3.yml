@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 10.132.193.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1767554825918
+  login: 1767554691731
+money: '0'
+last-account-name: Pleasure1234
+logoutlocation:
+  world: 58046496-96af-4aec-814e-1c7fc10f4772
+  world-name: world
+  x: -55.60641422984261
+  y: 64.0
+  z: -90.98914208603517
+  yaw: 157.04730224609375
+  pitch: 17.849973678588867
