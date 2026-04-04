@@ -1,184 +1,75 @@
-[02:00:34] [ServerMain/INFO]: [bootstrap] Running Java 24 (OpenJDK 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Mac OS X 26.2 (aarch64)
-[02:00:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
-[02:00:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:00:35] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
-[02:00:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[02:00:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - CoreProtect (23.1), Essentials (2.21.2), LuckPerms (5.5.22)
-[02:00:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[02:00:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[02:00:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 246.3ms
-[02:00:38] [ServerMain/WARN]: Missing data pack fabric-convention-tags-v2
-[02:00:38] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[02:00:38] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[02:00:38] [ServerMain/INFO]: Loaded 1470 recipes
-[02:00:38] [ServerMain/INFO]: Loaded 1584 advancements
-[02:00:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[02:00:39] [Server thread/INFO]: Loading properties
-[02:00:39] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[02:00:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:00:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:00:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:00:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[02:00:39] [Server thread/INFO]: Default game type: SURVIVAL
-[02:00:39] [Server thread/INFO]: Generating keypair
-[02:00:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:00:40] [Server thread/INFO]: Paper: Using libdeflate (macOS ARM64 / Apple Silicon) compression from Velocity.
-[02:00:40] [Server thread/INFO]: Paper: Using native (macOS ARM64 / Apple Silicon) cipher from Velocity.
-[02:00:40] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[02:00:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[02:00:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[02:00:40] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v23.1
-[02:00:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:00:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[02:00:40] [Server thread/INFO]:         __    
-[02:00:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[02:00:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[02:00:40] [Server thread/INFO]: 
-[02:00:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[02:00:40] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[02:00:40] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[02:00:40] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 460ms)
-[02:00:40] [Server thread/INFO]: Preparing level "world"
-[02:00:41] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_nether'...
-[02:00:41] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_end'...
-[02:00:42] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[02:00:42] [Server thread/INFO]: Prepared spawn area in 1 ms
-[02:00:42] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[02:00:42] [Server thread/INFO]: Preparing spawn area: 100%
-[02:00:42] [Server thread/INFO]: Prepared spawn area in 862 ms
-[02:00:42] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[02:00:42] [Server thread/INFO]: Preparing spawn area: 100%
-[02:00:42] [Server thread/INFO]: Prepared spawn area in 379 ms
-[02:00:42] [Server thread/INFO]: Done preparing level "world" (1.130s)
-[02:00:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[02:00:42] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[02:00:42] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[02:00:42] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[02:00:42] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[02:00:42] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[02:00:42] [Server thread/INFO]: [Essentials] Converted 0/1
-[02:00:42] [Server thread/INFO]: [Essentials] Ban format update complete.
-[02:00:42] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[02:00:42] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[02:00:42] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[02:00:42] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[02:00:42] [Server thread/INFO]: [Essentials] Done converting mail list.
-[02:00:42] [Server thread/INFO]: [Essentials] #===========================================================================#
-[02:00:42] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[02:00:42] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[02:00:42] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[02:00:42] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[02:00:42] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[02:00:42] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[02:00:42] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[02:00:42] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[02:00:42] [Server thread/INFO]: [Essentials] 
-[02:00:42] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[02:00:42] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[02:00:42] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[02:00:42] [Server thread/INFO]: [Essentials] #===========================================================================#
-[02:00:42] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[02:00:42] [Server thread/INFO]: [Essentials] #===========================================================================#
-[02:00:42] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[02:00:42] [Server thread/INFO]: [Essentials] 
-[02:00:42] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[02:00:42] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[02:00:42] [Server thread/INFO]: [Essentials] 
-[02:00:42] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[02:00:42] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[02:00:42] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[02:00:42] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[02:00:42] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[02:00:42] [Server thread/INFO]: [Essentials] #===========================================================================#
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[02:00:42] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[02:00:42] [Server thread/INFO]: [Essentials] Using locale en_GB
-[02:00:42] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[02:00:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[02:00:42] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[02:00:42] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[02:00:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[02:00:42] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.1
-[02:00:43] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
-[02:00:43] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[02:00:43] [Server thread/INFO]: --------------------
-[02:00:43] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[02:00:43] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[02:00:43] [Server thread/INFO]: --------------------
-[02:00:43] [Server thread/INFO]: [spark] Starting background profiler...
-[02:00:44] [Server thread/INFO]: Running delayed init tasks
-[02:00:44] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[02:00:44] [Server thread/INFO]: Done (10.923s)! For help, type "help"
-[02:01:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[02:02:00] [User Authenticator #0/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
-[02:02:00] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials]
-[02:02:01] [Server thread/INFO]: Pleasure1234 joined the game
-[02:02:01] [Server thread/INFO]: Pleasure1234[/127.0.0.1:51216] logged in with entity id 2 at ([world]16.236065140970823, 119.54154679538027, -28.46352909724847)
-[02:02:26] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
-[02:02:26] [Server thread/INFO]: Pleasure1234 left the game
-[02:02:39] [Server thread/INFO]: Incorrect argument for command
-save-all /stop<--[HERE]
-[02:02:44] [Server thread/INFO]: Stopping the server
-[02:02:44] [Server thread/INFO]: Stopping server
-[02:02:44] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v23.1
-[02:02:44] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[02:02:45] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v23.1
-[02:02:45] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[02:02:45] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[02:02:45] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:02:45] [Server thread/INFO]: [LuckPerms] Closing storage...
-[02:02:45] [Server thread/INFO]: [LuckPerms] Goodbye!
-[02:02:45] [Server thread/INFO]: Saving players
-[02:02:45] [Server thread/INFO]: Saving worlds
-[02:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[02:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[02:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[02:02:45] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[02:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:02:45] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[02:02:45] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[02:02:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[02:02:45] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[22:04:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:04:18] [ServerMain/INFO]: Loaded 1516 recipes
+[22:04:18] [ServerMain/INFO]: Loaded 1753 advancements
+[22:04:18] [Server thread/INFO]: Starting minecraft server version 26.1.1
+[22:04:18] [Server thread/INFO]: Loading properties
+[22:04:18] [Server thread/INFO]: Default game type: SURVIVAL
+[22:04:18] [Server thread/INFO]: Generating keypair
+[22:04:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:04:18] [Server thread/INFO]: Preparing level "world"
+[22:04:18] [Server thread/INFO]: Loading 25 persistent chunks...
+[22:04:18] [Server thread/INFO]: Preparing spawn area: 28%
+[22:04:19] [Server thread/INFO]: Preparing spawn area: 28%
+[22:04:19] [Server thread/INFO]: Preparing spawn area: 28%
+[22:04:20] [Server thread/INFO]: Preparing spawn area: 28%
+[22:04:20] [Server thread/INFO]: Preparing spawn area: 28%
+[22:04:21] [Server thread/INFO]: Time elapsed: 2061 ms
+[22:04:21] [Server thread/INFO]: Done (2.230s)! For help, type "help"
+[22:04:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:04:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:04:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:05:21] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:16:12] [User Authenticator #1/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[22:16:13] [Server thread/INFO]: Pleasure1234[/100.104.155.82:53474] logged in with entity id 112 at (16.70785061344367, 116.54154679843637, -30.840180479801326)
+[22:16:13] [Server thread/INFO]: Pleasure1234 joined the game
+[22:17:18] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[22:17:18] [Server thread/INFO]: Pleasure1234 left the game
+[22:18:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:29:22] [User Authenticator #2/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[22:29:22] [Server thread/INFO]: Pleasure1234[/100.104.155.82:53832] logged in with entity id 368 at (24.888745494812824, 111.0, -24.86797106879066)
+[22:29:22] [Server thread/INFO]: Pleasure1234 joined the game
+[22:30:21] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[22:30:21] [Server thread/INFO]: Pleasure1234 left the game
+[22:31:18] [User Authenticator #3/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[22:31:18] [Server thread/INFO]: Pleasure1234[/100.104.155.82:53918] logged in with entity id 583 at (23.765578195146492, 111.0, -25.96623059200145)
+[22:31:18] [Server thread/INFO]: Pleasure1234 joined the game
+[22:31:45] [Server thread/INFO]: Pleasure1234 has made the advancement [Incendium]
+[22:35:42] [Server thread/INFO]: Pleasure1234 has completed the challenge [Hot Tourist Destinations]
+[22:35:44] [Server thread/INFO]: Pleasure1234 has made the advancement [Strange Biomes]
+[22:36:04] [Worker-Main-24/ERROR]: Block-attached entity at invalid position: BlockPos{x=147, y=169, z=-166}
+[22:36:48] [Server thread/INFO]: Pleasure1234 experienced kinetic energy
+[22:43:28] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[22:43:28] [Server thread/INFO]: Pleasure1234 left the game
+[22:44:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:46:11] [User Authenticator #4/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[22:46:12] [Server thread/INFO]: Pleasure1234[/100.104.155.82:54367] logged in with entity id 6508 at (30.401819913154263, 118.0, -21.948583986308098)
+[22:46:12] [Server thread/INFO]: Pleasure1234 joined the game
+[22:54:06] [Server thread/INFO]: Pleasure1234 froze to death
+[22:55:40] [Server thread/INFO]: Villager Villager['Farmer'/7903, l='ServerLevel[world]', x=40.86, y=110.00, z=-46.20] died, message: 'Farmer was slain by Zombie'
+[22:56:02] [Server thread/INFO]: Villager Villager['Villager'/7904, l='ServerLevel[world]', x=35.56, y=110.00, z=-41.49] died, message: 'Villager was slain by Zombie'
+[23:03:35] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[23:03:35] [Server thread/INFO]: Pleasure1234 left the game
+[23:04:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:12:23] [Server thread/INFO]: The nearest minecraft:mangrove_swamp is at [2080, 143, 2048] (2919 blocks away)
+[23:12:23] [Server thread/INFO]: Locating element minecraft:mangrove_swamp took 550 ms
+[23:13:10] [User Authenticator #5/INFO]: UUID of player Pleasure1234 is 52e770f4-9a4a-43cd-99f7-b6389924fac3
+[23:13:11] [Server thread/INFO]: Pleasure1234[/100.104.155.82:55430] logged in with entity id 9061 at (27.49629796730718, 111.0, 23.25283014059282)
+[23:13:11] [Server thread/INFO]: Pleasure1234 joined the game
+[23:13:34] [Server thread/INFO]: Incorrect argument for command
+[23:13:34] [Server thread/INFO]: tp Pleasure1234/tp Pleasure1234 2080, 143, 2048<--[HERE]
+[23:15:03] [Server thread/INFO]: Teleported Pleasure1234 to 2080.500000, 143.000000, 2048.500000
+[23:15:04] [Server thread/WARN]: Pleasure1234 moved too quickly! 0.0,-10.806526110009003,0.0
+[23:15:05] [Server thread/WARN]: Pleasure1234 moved too quickly! 0.0,-10.80652611000896,0.0
+[23:24:59] [User Authenticator #6/INFO]: UUID of player Arlonia_ is 7c309e73-e66a-4ce5-abdf-a87904c44ca3
+[23:24:59] [Server thread/INFO]: Arlonia_[/100.122.145.100:65119] logged in with entity id 10814 at (9.5, 133.0, -3.5)
+[23:24:59] [Server thread/INFO]: Arlonia_ joined the game
+[23:27:28] [Server thread/INFO]: Arlonia_ lost connection: Disconnected
+[23:27:28] [Server thread/INFO]: Arlonia_ left the game
+[23:39:44] [Server thread/INFO]: Made Pleasure1234 a server operator
+[23:40:35] [Server thread/INFO]: [Pleasure1234: Set own game mode to Creative Mode]
+[23:49:08] [Server thread/INFO]: Pleasure1234 lost connection: Disconnected
+[23:49:08] [Server thread/INFO]: Pleasure1234 left the game
